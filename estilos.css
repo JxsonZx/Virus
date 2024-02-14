@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+body {
+    background-image: url(j1.jpg);
+    background-position: unset center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contenedor{
+   
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+p{
+    color:rgb(240, 12, 12);
+    font-size: xx-large;
+    padding: 15%;
+}
+
+button{
+    background-color: rgb(52, 6, 95);
+    font-size: xx-large;
+    padding: 0.75em;
+}
+
+#yesBtn{
+    transform: translate(-100%,0);
+}
+
+#noBtn{
+    position: absolute;
+}
